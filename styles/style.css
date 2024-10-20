@@ -9,25 +9,22 @@ body{
     padding: 0;
 }
 
-
 /* shared styles */
+
 .primary-btn{
     width: 10rem;
     height: 3.25rem;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     background: rgb(255, 84, 0);
     border: none;
     color: rgb(255, 255, 255);
 }
-
-
 
 /* nav style */
 
 .nav-container{
     margin: 0 auto;
 }
-
 .nav-section{
     width: 90%;
     height: 3rem;
@@ -36,7 +33,6 @@ body{
     align-items: center;
     margin: 2.5rem auto;
 }
-
 .nav-logo{
     display: flex;
     justify-content: center;
@@ -50,7 +46,6 @@ body{
     gap: 2.75rem;
     padding: 0.625rem 0rem;
 }
-
 .nav-logo h3{
     font-size: 2.25rem;
     font-weight: 800;
@@ -62,6 +57,7 @@ body{
 .nav-menu p{
     font-size: 1.125rem;
     font-weight: 400;
+    cursor: pointer;
 }
 .primary-color{
     color: rgb(255, 84, 0);
@@ -87,12 +83,10 @@ body{
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    
-    
 }
 .banner-title{
-    width: 676px;
-    height: 156px;
+    width: 42.25rem;
+    height: 9.75rem;
     margin: 0 auto;
     text-align: center;
 }
@@ -113,14 +107,14 @@ body{
 .input-section{
     width: 47rem;
     height: 5.25rem;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     background: rgba(255, 255, 255, 0.3);
     padding: 1rem;
 }
 .input-section input, select{
     width: 10rem;
     height: 3.25rem;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     background: rgb(255, 255, 255); 
     border: none;
     margin-right: 1.25rem;
@@ -128,8 +122,54 @@ body{
 }
 .input-section input::placeholder{
     color: rgba(19, 19, 24, 0.5);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     padding: 1rem 5.25rem 1rem 1rem ;
 }
 
+/* Our Popular Tours style */
+
+.Our-Popular-Tours{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    margin-top: 6.25rem ;
+    gap: 3rem;
+    
+}
+.our-popular-tour-description{
+    width: 100%;
+    height: 36rem; 
+    
+}
+.our-popular-img img{
+    width: 100%;
+    height: 36rem; 
+}
+.our-popular-tour-description h3{
+    color: rgb(19, 19, 24);
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+}
+.our-popular-tour-description p{
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: start;
+}
+
+.our-popular-tour-description ul>li{
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 1rem;
+    padding: 0.5rem;
+
+}
+.last-p{
+    margin-bottom: 3rem;
+}
